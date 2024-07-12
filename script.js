@@ -99,7 +99,7 @@ const quizData = [
         id: "q19",
         question: "Who cheated?",
         options: ["They did","I did..."],
-        next: [" "],
+        next: ["q20","q21"],
     },    {
         id: "q20",
         question: "Do you want an upbeat or low-tempo song?",
@@ -355,7 +355,7 @@ const quizData = [
 ];
 
 // Generate song entries from 1 to 105
-for (let i = 1; i <= 105; i++) {
+for (let i = 1; i <= 113; i++) {
     quizData.push({
         id: `SS${i}`,
         question: "Are you ready?",
